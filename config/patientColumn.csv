@@ -1,0 +1,12 @@
+Column;Profile
+patient_num;USER
+patient_blob;DATA_DEID
+sex_cd;USER
+age_in_years_num;USER
+age_in_days_num;USER
+age_in_month_num;USER
+birth_date;DATA_DEID
+death_date;DATA_DEID
+vital_status_cd;USER
+zip_cd;USER
+sourcesystem_cd;USER

@@ -1,0 +1,14 @@
+Column;Profile
+encounter_num;USER
+patient_num;USER
+visit_blob;DATA_DEID
+vital_status_visit_cd;USER
+age_visit_in_years_num;USER
+age_visit_in_days_num;USER
+age_visit_in_month_num;USER
+start_date;USER
+end_date;USER
+length_of_stay;USER
+active_status_cd;USER
+inout_cd;USER
+sourcesystem_cd;USER

@@ -1,0 +1,15 @@
+Package: i2b2rplugin
+Version: 0.2
+Date: 2016-06-16
+Title: i2b2 database management 
+Authors@R: c(
+    person("Nicolas", "Paris", email = "nicolas.paris@aphp.fr", role = c("cre","aut")),
+    person("Kan", "Yao", email = "kan-yao@outlook.com", role = "ctb"))
+Description:  connecting, security, extracting, vizualisation
+License: GPL (>= 2)
+Depends:
+    R (>= 3.0.1), RPostgres, data.table, jsonlite
+Imports: RPostgres, data.table, jsonlite
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 5.0.1

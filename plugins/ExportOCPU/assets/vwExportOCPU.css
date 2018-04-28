@@ -1,0 +1,161 @@
+/*** CSS for main plugin wrapper ***/
+
+DIV#ExportOCPU-mainDiv {
+	padding: 0px;
+}
+
+
+
+/*** CSS for tab background ***/
+
+DIV#ExportOCPU-TABS DIV.yui-content {
+	background: #FFF;
+}
+
+DIV#ExportOCPU-TABS DIV.ExportOCPU-MainContent {
+    background:#FFF;
+    border:solid #63758C;
+    border-width:1px 0;
+    overflow:auto;
+    height:100%;
+}
+DIV#ExportOCPU-TABS DIV.ExportOCPU-MainContentPad {
+    padding:10px 10px;
+}
+
+
+
+/*** CSS for the Specify Data tab ***/
+
+DIV#ExportOCPU-mainDiv DIV.droptrgtlbl {
+	padding: 6px 0px;
+	width:100px;
+	text-align:right;
+	float: left;
+	font-weight:bold;
+	color:#666;
+	margin: 15px 10px 0px 0px;
+}
+DIV#ExportOCPU-mainDiv DIV.droptrgt {
+	padding: 5px 10px;
+	background: #DEEBEF;
+	margin-top: 15px;
+	text-align:left;
+	border: 1px solid #63758C;
+	width:300px;
+	overflow:hidden;
+	white-space:nowrap;
+	
+}
+DIV#ExportOCPU-mainDiv DIV.outputOptionsLbl {
+	padding: 6px 0px;
+	width:200px;
+	text-align:right;
+	float: left;
+	font-weight:bold;
+	color:#666;
+	margin: 15px 10px 0px 0px;
+}
+DIV#ExportOCPU-mainDiv DIV.outputOptions {
+	padding: 5px 10px;
+	margin-top: 15px;
+	text-align:right;
+	float: left;
+	border: 1px solid #63758C;
+	width:300px;
+	overflow:hidden; 
+}
+DIV#ExportOCPU-mainDiv DIV.outputOptions form {
+	margin:0;
+	padding:0;
+}
+DIV#ExportOCPU-mainDiv DIV.outputOptions span {
+	margin-right: 15px;
+}
+DIV.condition{
+	margin: 20px 10px 0px 0px;
+}
+DIV#ExportOCPU-mainDiv DIV.search-purpose{
+	padding: 5px 10px;
+	background: #DEEBEF;
+	margin-top: 15px;
+	text-align: left;
+	border: 1px solid #63758C;
+	width: 300px;
+	overflow: hidden;
+}
+input[type=text]{
+	width: 300px;
+	box-sizing: boder-box;
+}
+
+/*** CSS for the View Results tab ***/
+
+DIV#ExportOCPU-TABS DIV.results-directions {
+	padding: 10px;
+	text-align:left;
+}
+DIV#ExportOCPU-TABS DIV.results-working {
+	margin:10px;
+	text-align:left;
+}
+DIV#ExportOCPU-TABS DIV.results-text {
+	margin:10px;
+}
+DIV#ExportOCPU-mainDiv DIV#ExportOCPU-InfoPDO TABLE {
+	margin:0 10px 10px 10px;
+	border-collapse:collapse;
+}
+DIV#ExportOCPU-mainDiv DIV#ExportOCPU-InfoPDO TABLE TH {
+	width:150px;
+	border:solid 1px #63758C;
+	background-color:#CEDBEF;
+	padding:5px;
+}
+DIV#ExportOCPU-mainDiv DIV#ExportOCPU-InfoPDO TABLE TD {
+	width:300px;
+	overflow:auto;
+	border:solid 1px #63758C;
+	background-color:#DEEBEF;
+	padding:5px;
+}
+DIV#ExportOCPU-mainDiv DIV#ExportOCPU-InfoPDO .InfoPDO-Request {
+	padding:0px;
+}
+DIV#ExportOCPU-mainDiv DIV#ExportOCPU-InfoPDO .InfoPDO-Response {
+	padding:0px;
+}
+DIV#ExportOCPU-mainDiv DIV#ExportOCPU-InfoPDO .originalXML {
+	height:150px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+}
+DIV#ExportOCPU-mainDiv DIV#ExportOCPU-InfoPDO TABLE TD DIV PRE {
+	margin:0px;
+	width:300px;
+	height:140px;
+	display:block;
+	overflow:scroll;
+	padding:5px;
+}
+
+
+
+/*** CSS for the Plugin Help tab ***/
+
+DIV#ExportOCPU-TABS H1 {
+	margin:0 0 10px 0;
+	font-size:16px;
+	color:#42558C;
+	font-weight:bold;
+}
+DIV#ExportOCPU-TABS H2 {
+	margin:10px 0 10px 0;
+	font-size:13px;
+	color:#42558C;
+	font-weight:bold;
+}
+DIV#ExportOCPU-TABS HR {
+	margin:0;
+}
